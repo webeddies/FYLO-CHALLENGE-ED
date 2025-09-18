@@ -1,6 +1,6 @@
  
 body {
-  max-width: 100%;        /* instead of 1440px */
+  max-width: 100%;        /* instead of  a fixed one */
   overflow-x: hidden;     /* prevents horizontal scroll */
   margin: 0;
   background-color: hsl(218, 28%, 13%);
@@ -13,7 +13,7 @@ body {
 
 
  
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .sign-up-container {
     max-width: 100%;
     padding: 0 15px;
@@ -21,7 +21,7 @@ body {
 
   .heading, .second-head {
     padding-left: 0;
-    text-align: center;   /* center text on small screens */
+    text-align: center;     center text on small screens 
   }
 
   .sign-up-svg {
@@ -29,7 +29,7 @@ body {
     height: auto;
     padding-left: 0;
   }
-}
+} */
 
 
 .main-background {
@@ -775,6 +775,7 @@ body {
 
 .contact-item {
   display: flex;
+  
   align-items: center;     
   gap: 20px;
 }

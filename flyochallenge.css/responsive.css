@@ -1,0 +1,131 @@
+/* Tablet view (≤ 768px) */
+@media only screen and (max-width: 768px) {
+  .sign-up-container {
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 0 15px;
+  }
+
+  .heading, .second-head {
+    padding-left: 0;
+    text-align: center;   
+    font-size: 26px;  /* smaller than desktop */
+  }
+
+  .subheading {
+    padding-left: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .sign-up-svg {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+  }
+
+  .getstarted-button {
+    margin: 20px auto;
+    display: block;
+  }
+
+  .whychooseus-grid {
+    width: 100%;
+    grid-template-columns: 1fr; /* stack on tablet */
+    row-gap: 50px;
+  }
+
+  .stay-productive-grid {
+    grid-template-columns: 1fr; /* stack image & text */
+    text-align: center;
+  }
+
+  .stay-productive-image {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .testimonial-grid {
+    grid-template-columns: 1fr; /* stack testimonials */
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .get-access-container {
+    width: 90%;
+    padding: 20px;
+    height: auto;
+  }
+
+  .get-access-bottom {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .get-access-search {
+    width: 100%;
+  }
+
+  .get-started-button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer-bottom {
+    grid-template-columns: 1fr; /* stack footer sections */
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footer-logo-container {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+/* Mobile view (≤ 480px) */
+@media only screen and (max-width: 480px) {
+  .heading, .second-head {
+    font-size: 22px;  
+  }
+
+  .subheading {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .getstarted-button {
+    width: 100%;
+    font-size: 14px;
+    height: 42px;
+  }
+
+  .whychooseus-grid {
+    row-gap: 30px;
+  }
+
+  .stay-title1, .stay-title2 {
+    font-size: 20px;
+  }
+
+  .testimonial-card, 
+  .testimonial-card2, 
+  .testimonial-card3 {
+    margin: 0;
+    width: 90%;
+  }
+
+  .get-access-title {
+    font-size: 20px;
+  }
+
+  .get-access-search {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .get-started-button {
+    font-size: 14px;
+    height: 40px;
+  }
+}
