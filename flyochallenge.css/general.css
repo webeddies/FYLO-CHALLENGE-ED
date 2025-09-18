@@ -3,7 +3,7 @@ body {
   max-width: 100%;        /* instead of 1440px */
   overflow-x: hidden;     /* prevents horizontal scroll */
   margin: 0;
-  background-color: aqua;
+  background-color: hsl(218, 28%, 13%);
   position: relative;
   min-height: 100vh;      /* better than fixed height */
   display: grid;
@@ -48,22 +48,23 @@ body {
   width: 100%;
   z-index: 1;
   
-  position: absolute;   /* take it out of the flow */
-  top: 950px;            /* place in the middle of main-background */
+  position: absolute;   /* i used this to take it out of the flow */
+  top: 950px;            /* this ensures it is placed in the middle of main-background */
   left: 0;
-  transform: translateY(-50%); /* adjust so it's really centered */
-  overflow: visible;  /* 👈 important: allow pulled-up parts to show */
+  transform: translateY(-50%); /* it helbs adjust so it's really centered */
+  overflow: visible;  /* this allows pulled-up parts to show */
  
 }
 
 .overlay {
-  width: 100%;            /* make it scale to container */
+  width: 100%;            /* this ensures it scale to container */
   height: auto;
  
 
   display: block;
-  margin-top: -155px;  /* pull it up into .main-background */
+  margin-top: -155px;  /* i used this to pull it up into .main-background */
   z-index: 1;
+  margin-bottom: -3px;    /* i used this to remove the hairline gap.*/
    
 }
  
@@ -102,13 +103,13 @@ body {
   object-fit: cover;
   object-position: center;
   vertical-align: middle;
- 
+  cursor: pointer;
   height: 46px;
   padding-left: 25px;
 
 }
 .nav-bar {
-  background-color: black;
+   
   width: 270px;
   color: white;
   display: flex;
@@ -119,7 +120,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-right: 25px;
-
+  cursor: pointer;
 }
 
 .middle-belt {
@@ -136,12 +137,12 @@ body {
 
 .em1 {
   width: 30px;
-  background-color: yellowgreen;
+  
 }
 
 .em2 {
   width: 30px;
-  background-color: blueviolet;
+ 
 }
 
 .sign-up-container {
@@ -185,7 +186,7 @@ body {
   
 }
 .first-head {
-  background-color: green;
+  
    
   font-weight: 700;
   
@@ -193,7 +194,7 @@ body {
   margin: 0;
 }
 .second-head {
-  background-color: magenta;
+ 
   margin: 0;
   padding-left: 110px;
    
@@ -209,13 +210,13 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   padding-left: 172px;
-  margin-top: 16px;
+  margin-top: 22px;
   margin-bottom: 0;
   font-size: 16px; 
   
 }
 .first-sub {
-  background-color: green;
+  
    
   /* font-weight: 700; */
   
@@ -225,7 +226,7 @@ body {
   margin-top: 0;
 }
 .second-sub {
-  background-color: magenta;
+ 
   margin-top: 0;
   padding-left: 10px;
   
@@ -236,7 +237,7 @@ body {
   margin-bottom: 0;
 }
 .third-sub {
-  background-color: indianred;
+  
   margin-top: 0;
   padding-left: 108px;
    
@@ -249,7 +250,7 @@ body {
 
 
 .getstarted-button {
-  background-color: hsl(176, 68%, 64%);
+  background-color: hsl(198, 60%, 50%); 
   color: white;
   font-size: 13px;
   font-weight: 700;
@@ -261,11 +262,12 @@ body {
    
   margin-left: 290px;
   margin-top: 25px;
+  cursor: pointer;
   
 }
 
 .whychooseus-grid {
-  
+   
   width: 900px;
   justify-self: center;
   display: grid;
@@ -280,16 +282,16 @@ body {
 
 
 .first-why {
-  background-color: blue;
+   
 }
 .second-why {
-  background-color: pink;
+   
 }
 .third-why {
-  background-color: yellow;
+   
 }
 .fourth-why {
-  background-color: saddlebrown;
+  
 }
 
 .access-image {
@@ -441,12 +443,13 @@ body {
 }
 
 .stay-productive-image-container {
-  background-color: salmon;
+  
 }
 
 .stay-productive-text {
-  background-color: purple;
+   
   padding-top: 78px;
+  padding-left: 20px;
 }
 
 .stay-productive-image {
@@ -504,17 +507,18 @@ body {
   padding-bottom: 2px;  
   margin-top: 12px;
   font-size: 13px; 
+  cursor: pointer;
 }
 .fylo-works-icon {
    
   vertical-align: middle;         
   margin-left: 5px;   
-   
+  cursor: pointer; 
 }
 
 .bg-quotes-container {
   position: relative;
-  background-color: bisque;
+ 
   margin-top: 130px;
 }
 
@@ -541,7 +545,7 @@ body {
   max-width: 290px;
   background-color: hsl(219, 30%, 18%);
   border-radius: 4px;
-  box-shadow: 10px 9px 10px rgba(165, 160, 160, 0.3);
+  box-shadow: 6px 6px 10px rgba(58, 58, 58, 0.3);
   height: 150px;
   padding: 30px 5px 10px 25px;
   display: flex;
@@ -635,7 +639,7 @@ body {
 }
 
 .get-access-title {
-  background-color: brown;
+  
   font-size: 28px;
   color: white;
   font-weight: 700;
@@ -662,7 +666,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: brown;
+  
   margin-top: 18px;
   margin-bottom: 0;
 }
@@ -685,7 +689,7 @@ body {
 }
 
 .get-started-button {
-  width: 180px;
+  width: 200px;
   height: 45px; 
   color: white;
   font-weight: 700;
@@ -693,7 +697,8 @@ body {
   border: none;
   border-radius: 38px;
   margin-left: 30px;
-   
+  cursor: pointer; 
+  padding: 0px 22px;
 
 }
 .footer {
@@ -702,7 +707,7 @@ body {
 }
 
 .footer-contents {
-  background-color: yellowgreen;
+   
   display: flex;
   flex-direction: column;
   margin: 150px 0px 0px 0px;
@@ -714,7 +719,7 @@ body {
   height: 50px;
   width: 250px;
   padding-left:115px;
-  background-color: brown;
+   
   margin-bottom: 25px;
   
 }
@@ -722,13 +727,13 @@ body {
   object-fit: cover;
   object-position: center;
   vertical-align: middle;
- 
+  cursor: pointer; 
   height: 46px;
   padding-left: 25px;
 }
 
 .footer-bottom {
-  background-color: blue;
+  
   flex: 1;
   display: grid;
   grid-template-columns: 40px 305px 290px 130px 150px 160px;
@@ -736,7 +741,7 @@ body {
 }
 
 .location-icon-container {
-  background-color: blue;
+ 
   
 }
 
@@ -747,7 +752,7 @@ body {
 }
 
 .location-text {
-  background-color: aqua;
+ 
   font-size: 13px;
   font-weight: 500;
   color: white;
@@ -758,7 +763,7 @@ body {
 /* .location-text p {} */
 
 .contact-section {
-  background-color: yellowgreen;
+ 
   font-size: 13px;
   font-weight: 500;
   color: white;
@@ -784,7 +789,7 @@ body {
 
 
 .first-links {
-  background-color: red;
+ 
   font-size: 13px;
   font-weight: 500;
   color: white;
@@ -798,7 +803,7 @@ body {
 } 
 
 .second-links {
-  background-color: black;
+ 
   font-size: 13px;
   font-weight: 500;
   color: white;
@@ -811,7 +816,7 @@ body {
   margin: 0;               
 } 
 .social-media {
-  background-color: green;
+ 
   display: flex;
   align-self: start;
 }
