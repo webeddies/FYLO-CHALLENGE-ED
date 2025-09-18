@@ -1,4 +1,4 @@
-/* Body should always fill screen width without overflow */
+ 
 body {
   max-width: 100%;        /* instead of 1440px */
   overflow-x: hidden;     /* prevents horizontal scroll */
