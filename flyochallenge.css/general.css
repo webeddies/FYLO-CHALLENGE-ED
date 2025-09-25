@@ -1,45 +1,4 @@
  
-/*.footer-logo-container {
-    padding-left: 0;
-    margin-bottom: 30px;
-    
-    height: auto;         
-    width: auto;         
-     
-  }
-
-  .logo {
-    object-fit: contain;   
-    object-position: center;
-    vertical-align: middle;
-    cursor: pointer;
-    height: 80px !important;         
-    max-width: 100%;      
-    padding-left: 30px;        
-} */
-
-
- /* .bg-quotes-img {
-    margin-left: 20px;
-    width: 18px;
-    height: 18px;
-  }
- */
-
-
-  /* .stay-titles {
-    display: flex;        
-    gap: 8px;             
-    margin-bottom: 10px;           
-    padding: 0;
-    background-color: aqua;
-  }
-
-  .stay-titles p {
-    margin: 0;           
-    font-size: 18px;
-  } */
-
 
 
 body {
@@ -56,24 +15,7 @@ body {
 
 
  
-/* @media only screen and (max-width: 768px) {
-  .sign-up-container {
-    max-width: 100%;
-    padding: 0 15px;
-  }
-
-  .heading, .second-head {
-    padding-left: 0;
-    text-align: center;     center text on small screens 
-  }
-
-  .sign-up-svg {
-    width: 100%;
-    height: auto;
-    padding-left: 0;
-  }
-} */
-
+ 
 
 .main-background {
 
