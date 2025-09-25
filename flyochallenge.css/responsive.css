@@ -90,7 +90,7 @@
   }
 
   .overlay {
-    margin-top: -90px; 
+    margin-top: -80px; 
     background-image: url('images/bg-curvy-mobile.svg');  
     /* Using background-image instead of content: url() is usually more reliable for layout backgrounds. */
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@
     height: auto; 
     z-index: 1; 
     display: block; 
-    margin-bottom: -5px;
+    margin-bottom: -10px;
     
     
      
