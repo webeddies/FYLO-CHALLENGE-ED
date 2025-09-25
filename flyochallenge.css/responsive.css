@@ -30,7 +30,7 @@
     width: auto;
     padding-left: 0;
     background-color: teal;
-    flex-shrink: 0; /* Prevent shrinking */
+    background-color: teal; flex-shrink: 0; /* Prevent shrinking */
   }
  
 
@@ -274,11 +274,12 @@
     gap: 8px;             
     margin-bottom: 10px;           
     padding: 0;
+    background-color: aqua;
   }
 
   .stay-titles p {
     margin: 0;           
-    font-size: 25px;
+    font-size: 18px;
   }
 
 
@@ -303,7 +304,7 @@
   }
 
   .bg-quotes-img {
-    margin-left: 115px;
+    margin-left: 20px;
     width: 18px;
     height: 18px;
   }
@@ -425,19 +426,21 @@
     padding-left: 0;
     margin-bottom: 30px;
     
-    height: 86px;
-    width: 300px;
-  }
+    height: auto;         
+    width: auto;         
+     
+}
 
   .logo {
-    object-fit: cover;
+    object-fit: contain;   
     object-position: center;
     vertical-align: middle;
-    cursor: pointer; 
-    height: 70px;
-    
-    padding-left: 25px;
-  }
+    cursor: pointer;
+    height: 80px !important;         
+    max-width: 100%;      
+    padding-left: 30px;        
+}
+
   .footer-bottom {
     grid-template-columns: 1fr;
     gap: 32px;
