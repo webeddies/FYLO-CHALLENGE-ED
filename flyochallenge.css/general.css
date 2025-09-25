@@ -1,4 +1,47 @@
  
+/*.footer-logo-container {
+    padding-left: 0;
+    margin-bottom: 30px;
+    
+    height: auto;         
+    width: auto;         
+     
+  }
+
+  .logo {
+    object-fit: contain;   
+    object-position: center;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 80px !important;         
+    max-width: 100%;      
+    padding-left: 30px;        
+} */
+
+
+ /* .bg-quotes-img {
+    margin-left: 20px;
+    width: 18px;
+    height: 18px;
+  }
+ */
+
+
+  /* .stay-titles {
+    display: flex;        
+    gap: 8px;             
+    margin-bottom: 10px;           
+    padding: 0;
+    background-color: aqua;
+  }
+
+  .stay-titles p {
+    margin: 0;           
+    font-size: 18px;
+  } */
+
+
+
 body {
   max-width: 100%;        /* instead of  a fixed one */
   overflow-x: hidden;     /* prevents horizontal scroll */
@@ -724,7 +767,7 @@ body {
   margin-bottom: 25px;
   
 }
-.logo {
+.footer-logo {
   object-fit: cover;
   object-position: center;
   vertical-align: middle;
